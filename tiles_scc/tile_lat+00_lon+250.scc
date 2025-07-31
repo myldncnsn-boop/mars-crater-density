@@ -1,0 +1,35 @@
+# Spatial crater count
+#
+# Date of measurement = 30.07.2025
+#
+# Ellipsoid axes:
+a_axis_radius = 3396.19 <km>
+b_axis_radius = 3396.19 <km>
+c_axis_radius = 3396.19 <km>
+coordinate_system_name = unknown
+#
+# area_shapes:
+unit_boundary = {vertex,sub_area,tag,lon,lat
+#
+# Area_name1 = tile 0/250
+# Area_size1 = 86756.58016522697 <km^2>
+#
+1	1	ext	250.000000000000	0.000000000000
+2	1	ext	255.000000000000	0.000000000000
+3	1	ext	255.000000000000	5.000000000000
+4	1	ext	250.000000000000	5.000000000000
+5	1	ext	250.000000000000	0.000000000000
+}
+#
+Total_area = 86756.58016522697 <km^2>
+#
+# crater_diameters:
+crater = {diam,lon,lat
+1.054634	250.474532	4.704645
+1.28622	251.418424	4.13289
+1.398553	252.811961	3.747628
+1.050864	250.702284	3.293049
+1.155036	250.06015	2.223762
+3.064299	250.869617	1.938875
+1.758208	251.605104	2.297255
+}
