@@ -1,0 +1,7 @@
+-o test_southern_highlands/tile80S140E
+-title Differential plot|Tile 80°S–75°S, 140°E–145°E
+-cs neukumivanov
+-p source=tiles_scc/tile_lat-80_lon+140.scc,psym=o
+-p type=d-fit,range=[1,5],isochron=1
+-p range=[2,5],colour=red
+-f png csv

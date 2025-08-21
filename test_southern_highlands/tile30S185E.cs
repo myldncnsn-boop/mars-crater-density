@@ -1,0 +1,7 @@
+-o test_southern_highlands/tile30S185E
+-title Differential plot|Tile 30°S–25°S, 185°E–190°E
+-cs neukumivanov
+-p source=tiles_scc/tile_lat-30_lon+185.scc,psym=o
+-p type=d-fit,range=[1,5],isochron=1
+-p range=[2,5],colour=red
+-f png csv
