@@ -1,7 +1,0 @@
--o results/tile05S005E
--title Differential plot|Tile 5°S–0°, 5°E–10°E
--cs neukumivanov
--p source=tiles_scc/tile_lat-05_lon+005.scc,psym=o
--p type=d-fit,range=[1,5],isochron=1
--p range=[2,5],colour=red
--f png

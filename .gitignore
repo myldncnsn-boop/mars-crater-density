@@ -1,0 +1,24 @@
+# OS / Python
+.DS_Store
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Envs
+.venv/
+.env
+
+# Big/raw/generated data (don’t track)
+tiles_scc/
+all_tiles/
+run_2_tiles/
+failed_tiles.log
+*.png
+*.gpkg
+Catalog_Mars_Release_*.csv
+
+# Keep only the aggregated CSV(s)
+*.csv
+!mars_age_tiles_agg_run2.csv
