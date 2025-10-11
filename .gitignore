@@ -17,6 +17,7 @@ run_2_tiles/
 failed_tiles.log
 *.png
 *.gpkg
+!mars_age_tiles_points.gpkg
 Catalog_Mars_Release_*.csv
 
 # Keep only the aggregated CSV(s)
