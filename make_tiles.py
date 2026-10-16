@@ -4,7 +4,7 @@ from datetime import date
 from pyproj import Geod
 
 # Load data
-CSV_FILE = "/Users/jessica/Documents/EPSS/MARS_CRATER_DENSITY/Catalog_Mars_Release_2020_1kmPlus_FullMorphData.csv"
+CSV_FILE = "Catalog_Mars_Release_2020_1kmPlus_FullMorphData.csv"
 df = pd.read_csv(CSV_FILE, engine="python")
 
 # Ensure essential numeric columns

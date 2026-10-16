@@ -54,7 +54,7 @@ process_tile() {
     echo "[$job_num/$total] Processing $basename ..."
 
     # Run craterstats with your cumulative-fit + resurfacing command
-    if ! /opt/anaconda3/envs/craterstats/bin/craterstats \
+    if ! craterstats \
         -o "$out" \
         -title "$title" \
         -pr cumul \
